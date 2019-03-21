@@ -4,8 +4,7 @@ provider "google" {
 }
 
 module "network" {
-  source  = "eveldcorp/module/dummy"
-  version = "0.1.0"
+  source  = "github.com/eveldcorp/terraform-dummy-module?ref=v0.1.0"
 
   name = "vpc-1"
 }
