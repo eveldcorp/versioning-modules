@@ -4,6 +4,8 @@ provider "google" {
 }
 
 module "network" {
-    source = "./network"
-    name = "vpc-1"
+  source  = "eveldcorp/module/dummy"
+  version = "0.1.0"
+
+  name = "vpc-1"
 }
